@@ -30,3 +30,19 @@ A secure, modular, and production-ready backend built using **FastAPI**, **Postg
 
 ## 📁 Project Structure
 
+restaurant_app_demo/
+├── app/
+│ ├── routers/
+│ │ ├── auth.py
+│ │ ├── user.py
+│ │ ├── cart.py
+│ │ └── menu.py
+│ ├── config.py
+│ ├── DB.py
+│ ├── main.py
+│ ├── oauth2.py
+│ ├── schemas.py
+│ └── utils.py
+├── .env
+├── .gitignore
+└── README.md
